@@ -3,7 +3,7 @@ class SGTree{
     
     public:
     SGTree(int n){
-        seg.resize(4 * n + 1, INT_MAX);
+        seg.resize(4 * n + 1);
     }
 
     void build(int ind, int low, int high, vector<int> &v){
